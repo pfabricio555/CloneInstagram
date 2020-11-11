@@ -6,11 +6,10 @@
     font-family: sans-serif;
     font-size: 14px;
 }
-
 body{
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(243, 243, 243);
+    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
     padding: 0;
     margin: 0;
     display: flex;
@@ -33,7 +32,7 @@ body{
 }
 
 .instagram-phone img {
-    height: 50rem;
+    height: 42rem;
 }
 
 .instagram-continue{
@@ -41,8 +40,8 @@ body{
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
-    width: 50%;
-    min-height: 34rem;
+    width: 45%;
+    min-height: 40rem;
 }
 
 .group{
@@ -50,46 +49,70 @@ body{
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    background-color: #ffffff;
+    background-color:  rgb(243, 243, 243);
     width: 100%;
     padding: 1.3rem 0;
     border: 1px solid lightgray;
 }
 
 .group:nth-child(1){
-    min-height: 19rem;
+    min-height: 23rem;
 }
 
 .instagram-logo{
-    height: 3rem;
+    height: 4rem;
+    margin-top: 2rem;
 }
 
-.profile-photo{
+.form-login{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
-    overflow: hidden;
+    flex-direction: column;
 }
 
-.profile-photo img {
-    height: 6rem;
+.form-login input{
+    margin-top: 1rem;
+    padding: 8px;
+    border-radius: 4px;
+    width: 250px;
+    border: #ccc solid 1px;
 }
 
 .instagram-login{
-    background-color: #0095f6;
+    background-color: #bde3fc;
     color: #ffffff;
     padding: 8px;
+    margin-top: 1rem;
     border-radius: 4px;
+    width: 250px;
+    text-align: center;
 }
 
-.instagram-logout {
-    color: #0095f6;
+.LoginFace{
+    width: 50%;
     margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.LoginFace a{
+    color: #024b7c;
+}
+
+.LoginFace img{
+    width: 20px;
+}
+
+.password{
+    color: #024b7c;
+    margin-top: 1rem;
+    font-size: 10px;
 }
 
 .not-account{
-    color: rgb(160, 160, 160);
+    color: rgb(112, 110, 110);
 }
 
 .link-blue{
@@ -102,8 +125,8 @@ body{
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 1.3rem 0;
-
+    padding: 2rem 0;
+    color: #ffffff;
 }
 
 .download{
@@ -155,7 +178,7 @@ body{
     }
 
     .group{
-        border: 1px solid transparent;
+        border: 1px solid lightgray;
     }
 
 }
